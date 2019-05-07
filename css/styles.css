@@ -1,0 +1,110 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+h1 {
+  text-align: center;
+}
+
+.heading-two,
+.holla, {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.back-up {
+  text-transform: uppercase;
+}
+
+.profile-img {
+  align-items: center;
+}
+
+.name {
+
+}
+
+/*----- Navigation ------ */
+
+.header,
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding-top: 2em;
+}
+
+.name {
+  width: 110px;
+  align-self: center;
+}
+
+.nav {
+  margin-top: 1.5em;
+}
+
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: .4em;
+}
+
+
+/* =================================
+  Media Quieres
+==================================== */
+
+@media (min-width: 320px) {}
+
+
+@media (min-width: 768px) {
+  .header {
+    height: 200px;
+    justify-content: flex-end;
+  }
+  .name {
+    width: 140px;
+  }
+  .nav {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .header {
+    flex-direction: row;
+  }
+  .name {
+    margin-right: auto;
+  }
+  .nav {
+    margin-top: 0;
+    align-self: center;
+  }
+  .nav li {
+    margin-left: .65em;
+    margin-right: .65em;
+  }
+}
