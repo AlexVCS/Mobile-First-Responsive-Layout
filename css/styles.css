@@ -6,7 +6,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   min-width: 320px;
-  background-color: #dddddd;
+  background-color: #ffffff;
 }
 
 * {
@@ -15,7 +15,7 @@ body {
 }
 
 .mywork img {
-  width: 100%;
+  width: 110%;
 }
 
 .profile img {
@@ -23,7 +23,8 @@ body {
 }
 
 .heading-two,
-.holla {
+.holla,
+.back-up {
   text-transform: uppercase;
 }
 
@@ -35,13 +36,15 @@ body {
 
 /*----- Navigation ------ */
 
-.nav a {
+.nav a,
+.back-up {
   text-decoration: none;
   color: black;
 }
 
 .nav {
   padding: 10px 0px 5px;
+  background-color: #dddddd;
 }
 
 .nav ul li {
