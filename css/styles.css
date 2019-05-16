@@ -6,16 +6,16 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   min-width: 320px;
-  background-color: #ffffff;
 }
 
 * {
   list-style: none;
   box-sizing: border-box;
+  background-color: #fffbfb;
 }
 
 .mywork img {
-  width: 110%;
+  width: 100%;
 }
 
 .profile img {
@@ -42,13 +42,19 @@ body {
   color: black;
 }
 
-.nav {
-  padding: 10px 0px 5px;
-  background-color: #dddddd;
+.phone-num a,
+.email a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-.nav ul li {
-  background: #fafafa;
+.nav {
+  padding: 10px 0px 5px;
+}
+
+.header ul li {
+  background-color: white;
   width: 90%;
 }
 
