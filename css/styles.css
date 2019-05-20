@@ -28,6 +28,10 @@ body {
   text-transform: uppercase;
 }
 
+.Calculator p {
+  color: red;
+}
+
 
 /* =================================
   Base Layout Styles
@@ -66,6 +70,10 @@ body {
   float: right;
 }
 
+.back-up {
+  border-style: dashed;
+}
+
 .myname {
   float: left;
 }
@@ -81,11 +89,49 @@ ul {
 
 
 @media (min-width: 768px) {
-  .mywork img {
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-left: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .profile img {
+    float: right;
+    width: 45%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .profile p {
+    text-align: left;
+    max-width: 50%;
+  }
+
+  .main-Marketing,
+  .main-Search,
+  .main-Travel,
+  .main-Map,
+  .main-Gallery {
     width: 50%;
   }
+
+  .back-up {
+    display: none;
+  }
+
 }
 
 
 
 @media (min-width: 1024px) {
+
+  .back-up {
+    display: none;
+  }
+
+}
