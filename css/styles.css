@@ -68,18 +68,30 @@ body {
 
 .back-up {
   float: right;
+  padding-right: 1em;
 }
 
-.back-up {
-  border-style: dashed;
+.border {
+  border-top: 1px solid lightgrey;
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .myname {
   float: left;
+  padding-left: .5em;
+  padding-bottom: 2em;
 }
 
 ul {
   padding-left: 0;
+}
+
+.bottom-nav {
+  display: none;
 }
 
 
@@ -103,15 +115,15 @@ ul {
 
   .profile img {
     float: right;
-    width: 45%;
+    width: 48%;
     padding: 10px 10px 10px 10px;
   }
 
   .profile p {
     text-align: left;
     max-width: 50%;
-    padding-left: 30px;
-    padding-bottom: 100px;
+    font-size: 1.1em;
+    padding: 20px 0 50px 35px;
   }
 
   .main-Marketing,
@@ -124,14 +136,41 @@ ul {
     width: 45%;
   }
 
+.main-Calculator {
+  padding-bottom: 40px;
+}
+
+.contact {
+  padding: 0 45px 20px 45px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+  .back-up {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: inline;
+    list-style-type: none;
+  }
+
+  .bottom-nav a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding-right: 2em;
+  }
+
+  .myname,
+  .bottom-nav {
+    padding-bottom: 4em;
+  }
+
   .cf::after {
     content: "";
     display: table;
     clear: both;
-  }
-
-  .back-up {
-    display: none;
   }
 
 }
@@ -139,6 +178,8 @@ ul {
 
 
 @media (min-width: 1024px) {
+
+
 
   .back-up {
     display: none;
