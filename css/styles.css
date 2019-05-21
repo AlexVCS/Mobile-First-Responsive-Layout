@@ -153,18 +153,17 @@ ul {
   .bottom-nav {
     display: inline;
     list-style-type: none;
+    float: right;
   }
 
   .bottom-nav a {
     text-decoration: none;
     color: black;
-    float: right;
     padding-right: 2em;
   }
 
-  .myname,
-  .bottom-nav {
-    padding-bottom: 4em;
+  .bottom-nav li {
+    float: left;
   }
 
   .cf::after {
