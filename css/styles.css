@@ -28,12 +28,12 @@ body {
   text-transform: uppercase;
 }
 
-.holla {
-  color: red;
+.profile p {
+  font-family: Montaga
 }
 
-.email a {
-  border: dotted;
+.holla {
+  color: red;
 }
 
 
@@ -139,6 +139,7 @@ ul {
   .main-Calculator {
     display: inline-block;
     width: 45%;
+    vertical-align: top;
   }
 
 .main-Calculator {
@@ -202,6 +203,7 @@ ul {
     display: inline-block;
     width: 30%;
     padding: 5px 8px 5px 8px;
+    vertical-align: top;
   }
 
   .back-up {
