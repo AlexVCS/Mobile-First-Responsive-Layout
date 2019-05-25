@@ -29,7 +29,7 @@ body {
 }
 
 .profile p {
-  font-family: Montaga
+  font-family:
 }
 
 .holla {
@@ -170,6 +170,10 @@ ul {
 
   .bottom-nav li {
     float: left;
+  }
+
+  .Skills {
+    padding-bottom: 60px;
   }
 
   .cf::after {
